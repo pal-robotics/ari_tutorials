@@ -6,7 +6,7 @@
  * nondisclosure agreement with PAL Robotics SL. In this case it may not be
  * copied or disclosed except in accordance with the terms of that agreement.
  */
-/** \author Sara Cooper. */
+/** \author Jordi Pages. */
 
 // ROS headers
 #include <ros/ros.h>
