@@ -17,9 +17,7 @@ find_package(OpenCV REQUIRED
 
 catkin_package()
 
-include_directories(
-  ${catkin_INCLUDE_DIRS}
-)
+include_directories(include)
 include_directories(SYSTEM ${catkin_INCLUDE_DIRS})
 add_executable(ari_look_to_point src/ari_look_to_point.cpp)
 target_link_libraries(ari_look_to_point

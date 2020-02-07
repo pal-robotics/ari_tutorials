@@ -14,10 +14,7 @@ catkin_package(
 )
 
 
-include_directories(
-  ${catkin_INCLUDE_DIRS}
-)
-
+include_directories(include)
 include_directories(SYSTEM ${catkin_INCLUDE_DIRS})
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
