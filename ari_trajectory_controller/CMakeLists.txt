@@ -21,8 +21,7 @@ catkin_package(
 #add_dependencies(listener ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 
-include_directories(include ${catkin_INCLUDE_DIRS})
-include_directories(SYSTEM ${catkin_INCLUDE_DIRS})
+include_directories(include SYSTEM ${catkin_INCLUDE_DIRS})
 add_executable(run_traj_control src/run_traj_control.cpp)
 target_link_libraries(run_traj_control ${catkin_LIBRARIES})
 
