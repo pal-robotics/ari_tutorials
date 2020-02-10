@@ -13,13 +13,13 @@ or directly by cloning the following github package into your catkin workspace a
 The tutorial consists of two versions. The main version uses a gui to allow the user to send strings for speech and visualize the feedback and result sent by the action server. To run this version launch the file without an extra argument
 
 ~~~~
-$ roslaunch tts tts.launch
+$ roslaunch ari_tts_tutorials tts.launch
 ~~~~
 
 The second version simply uses the terminal to display the same information and as input. To launch add the type argument
 
 ~~~~
-$ roslaunch tts tts.launch type:=terminal
+$ roslaunch ari_tts_tutorials tts.launch type:=terminal
 ~~~~
 
 Follow the prompt to send the action goal.
