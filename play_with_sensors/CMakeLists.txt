@@ -16,3 +16,5 @@ install(PROGRAMS
     scripts/laser_play.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
+
+include_directories(SYSTEM ${catkin_INCLUDE_DIRS})

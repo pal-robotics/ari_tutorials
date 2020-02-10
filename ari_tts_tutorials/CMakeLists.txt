@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(tts)
+project(ari_tts_tutorials)
 
 
 find_package(catkin REQUIRED COMPONENTS
@@ -9,6 +9,4 @@ find_package(catkin REQUIRED COMPONENTS
 
 catkin_package()
 
-include_directories(
-  ${catkin_INCLUDE_DIRS}
-)
+include_directories(SYSTEM ${catkin_INCLUDE_DIRS})

@@ -13,3 +13,4 @@ install(PROGRAMS
   scripts/say.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
+include_directories(SYSTEM ${catkin_INCLUDE_DIRS})
