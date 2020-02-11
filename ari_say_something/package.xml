@@ -1,20 +1,18 @@
 <?xml version="1.0"?>
 <package>
-  <name>play_with_sensors</name>
+  <name>ari_say_something</name>
   <version>2.0.2</version>
-  <description>The play_with_sensors package contains little examples on using
-    sensor data of the robot</description>
+  <description>The say_something package contains examples of using the text
+    to speech action server</description>
 
   <maintainer email="sara.cooper@pal-robotics.com">Sara Cooper</maintainer>
-
 
   <license>BSD</license>
 
   <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>pal_interaction_msgs</build_depend>
   <build_depend>rospy</build_depend>
-  <run_depend>python-qt-bindings</run_depend>
-  <run_depend>geometry_msgs</run_depend>
+  <run_depend>pal_interaction_msgs</run_depend>
   <run_depend>rospy</run_depend>
-  <run_depend>sensor_msgs</run_depend>
 
 </package>
