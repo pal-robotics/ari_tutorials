@@ -16,11 +16,11 @@
 - git: {local-name: rviz_plugin_covariance,       uri: 'https://github.com/pal-robotics/rviz_plugin_covariance.git', version: 'indigo-devel'}
 - git: {local-name: simple_grasping_action,       uri: 'https://github.com/pal-robotics/simple_grasping_action.git', version: 'master'}
 - git: {local-name: tf_lookup,                    uri: 'https://github.com/pal-robotics/tf_lookup.git', version: 'master'}
-- git: {local-name: ari_moveit_config,          uri: 'https://github.com/pal-robotics/ari_moveit_config.git', version: 'master'}
-- git: {local-name: ari_navigation,             uri: 'https://github.com/pal-robotics/ari_navigation.git', version: 'kinetic-devel'}
-- git: {local-name: ari_robot,                  uri: 'https://github.com/pal-robotics/ari_robot.git', version: 'melodic-devel'}
-- git: {local-name: ari_simulation,             uri: 'https://github.com/pal-robotics/ari_simulation.git', version: 'master'}
-- git: {local-name: ari_tutorials,              uri: 'https://github.com/pal-robotics/ari_tutorials.git', version: 'master'}
+- git: {local-name: ari_moveit_config,            uri: 'https://github.com/pal-robotics/ari_moveit_config.git', version: 'master'}
+- git: {local-name: ari_navigation,               uri: 'https://github.com/pal-robotics/ari_navigation.git', version: 'kinetic-devel'}
+- git: {local-name: ari_robot,                    uri: 'https://github.com/pal-robotics/ari_robot.git', version: 'melodic-devel'}
+- git: {local-name: ari_simulation,               uri: 'https://github.com/pal-robotics/ari_simulation.git', version: 'master'}
+- git: {local-name: ari_tutorials,                uri: 'https://github.com/pal-robotics/ari_tutorials.git', version: 'master'}
 - git: {local-name: ddynamic_reconfigure_python,  uri: 'https://github.com/pal-robotics/ddynamic_reconfigure_python', version: 'master'}
 - git: {local-name: dynamic_introspection,        uri: 'https://github.com/pal-robotics/dynamic_introspection', version: 'kinetic-devel'}
 - git: {local-name: backward_ros,                 uri: 'https://github.com/pal-robotics/backward_ros', version: 'kinetic-devel'}
@@ -33,7 +33,7 @@
 - git: {local-name: slam_gmapping,                uri: 'https://github.com/ros-perception/slam_gmapping.git', version: 'hydro-devel'}
 - git: {local-name: openslam_gmapping,            uri: 'https://github.com/ros-perception/openslam_gmapping.git', version: 'master'}
 - git: {local-name: eband_local_planner,          uri: 'https://github.com/pal-robotics-forks/eband_local_planner.git', version: 'melodic-devel'}
-- git: {local-name: zbar_ros,                uri: 'https://github.com/ros-drivers/zbar_ros.git', version: 'indigo-devel'}
-- git: {local-name: realsense_gazebo_plugin,                uri: 'https://github.com/pal-robotics/realsense_gazebo_plugin.git', version: 'melodic-devel'}
-- git: {local-name: realsense,                uri: 'https://github.com/pal-robotics-forks/realsense.git', version: 'upstream'}
-
+- git: {local-name: zbar_ros,                     uri: 'https://github.com/ros-drivers/zbar_ros.git', version: 'indigo-devel'}
+- git: {local-name: realsense_gazebo_plugin,      uri: 'https://github.com/pal-robotics/realsense_gazebo_plugin.git', version: 'melodic-devel'}
+- git: {local-name: realsense,                    uri: 'https://github.com/pal-robotics-forks/realsense.git', version: 'upstream'}
+- git: {local-name: pal_navigation_cfg_public,    uri: 'https://github.com/pal-robotics/pal_navigation_cfg_public.git', version: 'master'}
