@@ -35,5 +35,5 @@
 - git: {local-name: eband_local_planner,          uri: 'https://github.com/pal-robotics-forks/eband_local_planner.git', version: 'melodic-devel'}
 - git: {local-name: zbar_ros,                     uri: 'https://github.com/ros-drivers/zbar_ros.git', version: 'indigo-devel'}
 - git: {local-name: realsense_gazebo_plugin,      uri: 'https://github.com/pal-robotics/realsense_gazebo_plugin.git', version: 'melodic-devel'}
-- git: {local-name: realsense,                    uri: 'https://github.com/pal-robotics-forks/realsense.git', version: 'erbium-devel'}
+- git: {local-name: realsense,                    uri: 'https://github.com/pal-robotics-forks/realsense.git', version: 'kinetic-devel'}
 - git: {local-name: pal_navigation_cfg_public,    uri: 'https://github.com/pal-robotics/pal_navigation_cfg_public.git', version: 'master'}
