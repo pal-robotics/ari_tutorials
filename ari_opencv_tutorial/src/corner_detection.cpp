@@ -78,7 +78,7 @@ cv::RNG rng(12345);
 
 CornerDetection::CornerDetection(ros::NodeHandle nh_): _imageTransport(nh_)
 {
-	image_sub = _imageTransport.subscribe("head_front_camera/image_raw", 1, &CornerDetection::imageCB, this, image_transport::TransportHints("compressed"));
+	image_sub = _imageTransport.subscribe("head_front_camera/color/image_raw", 1, &CornerDetection::imageCB, this, image_transport::TransportHints("compressed"));
 	
 	cv::namedWindow(shiTomasi_win, CV_WINDOW_FREERATIO);
   cv::createTrackbar( " Quality Level:", shiTomasi_win, &myShiTomasi_qualityLevel, max_qualityLevel);

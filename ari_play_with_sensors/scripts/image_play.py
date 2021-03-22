@@ -30,7 +30,7 @@ class Main(QtGui.QMainWindow):
         self.setCentralWidget(self.central_widget)
 
         self.last_msg = None
-        self.image_sub = rospy.Subscriber('/head_front_camera/image_raw/compressed',
+        self.image_sub = rospy.Subscriber('/head_front_camera/color/image_raw/compressed',
                                           CompressedImage,
                                           self.image_cb,
                                           queue_size=1)
