@@ -49,9 +49,9 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 static const std::string windowName      = "Inside of ARI's head";
-static const std::string cameraFrame     = "/head_front_camera_optical_frame";
-static const std::string imageTopic      = "/head_front_camera/image_raw";
-static const std::string cameraInfoTopic = "/head_front_camera/camera_info";
+static const std::string cameraFrame     = "/head_front_camera_color_optical_frame";
+static const std::string imageTopic      = "/head_front_camera/color/image_raw";
+static const std::string cameraInfoTopic = "/head_front_camera/color/camera_info";
 
 // Intrinsic parameters of the camera
 cv::Mat cameraIntrinsics;
