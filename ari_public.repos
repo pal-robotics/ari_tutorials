@@ -1,0 +1,47 @@
+repositories:
+  urdf_test:
+    type: git
+    url: https://github.com/pal-robotics/urdf_test.git
+    version: humble-devel
+  launch_pal:
+    type: git
+    url: https://github.com/pal-robotics/launch_pal.git
+    version: master
+  pal_gazebo_worlds:
+    type: git
+    url: https://github.com/pal-robotics/pal_gazebo_worlds.git
+    version: humble-devel
+  play_motion2:
+    type: git
+    url: https://github.com/pal-robotics/play_motion2.git
+    version: humble-devel
+
+  pmb2_robot:
+    type: git
+    url: https://github.com/pal-robotics/pmb2_robot.git
+    version: humble-devel
+  pmb2_navigation:
+    type: git
+    url: https://github.com/pal-robotics/pmb2_navigation.git
+    version: humble-devel
+  pal_navigation_cfg_public:
+    type: git
+    url: https://github.com/pal-robotics/pal_navigation_cfg_public.git
+    version: humble-devel
+
+  ari_robot:
+    type: git
+    url: https://github.com/pal-robotics/ari_robot.git
+    version: humble-devel
+  ari_navigation:
+    type: git
+    url: https://github.com/pal-robotics/ari_navigation.git
+    version: humble-devel
+  ari_simulation:
+    type: git
+    url: https://github.com/pal-robotics/ari_simulation.git
+    version: humble-devel
+  ari_moveit_config:
+    type: git
+    url: https://github.com/pal-robotics/ari_moveit_config.git
+    version: humble-devel
